@@ -1,0 +1,302 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="images/favicon.ico">
+	
+		<title> Order Unsuccessful| DonateKart </title>
+	
+		<!-- Bootstrap core CSS -->
+		<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"> 
+		<link href="node_modules/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet"> 
+		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="all-wrapper payment-pages order-incomplete">
+			<!-- Top-Menu -->
+			<section id="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 hidden-xs">
+							<form class="form-inline">
+								<div class="form-group">
+									<input type="text" class="form-control" id="searchform" placeholder="Search Campaigns">
+								</div>
+								<button type="submit" class="btn btn-link btn-search"><i class="zmdi zmdi-search"></i></button>
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<ul class="nav nav-pills pull-right">
+								<li role="presentation"><a href="login.html">Login</a></li>
+								<li role="presentation"><a href="register.html">Register</a></li>
+								<li role="presentation"><a href="start-your-campaign.html">Create New Campaign</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</section>
+			
+			<!-- Header -->
+			<nav id="header" class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu-navbar-collapse" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"></a>
+					</div>
+					<div class="collapse navbar-collapse pull-right" id="mainmenu-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="explore-campaigns.html">Explore Campaigns <span class="sr-only">Explore Campaigns</span></a></li>
+							<li><a href="how-it-works.html">How it Works <span class="sr-only">How DonateKart Works</span></a></li>
+							<li class="hidden-lg hidden-md hidden-sm hidden-xs"><a class="btn btn-primary" href="#">New Campaign <span class="sr-only">New Campaign</span></a></li>
+								<li role="presentation">
+									<a class="dropdown-toggle btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+										<i class="zmdi zmdi-shopping-cart"></i> <span class="mini-cart-items-count">10</span> Item(s)  ( <i class="inr-icon inr-sm inr-white"></i> <span class="mini-cart-total">9,999</span> ) 
+									</a>
+									<div class="dropdown-menu mini-cart">
+										<div class="mini-cart-header clearfix">
+											<div class="edit-cart-wrapper-wrapper col-xs-6">
+												<a href="#" class="btn btn-link">Edit Cart</a>
+											</div>
+											<div class="total-wrapper col-xs-6 text-right">
+												<span class="lighter-text">Total:</span>
+												<span class="primary-color-text"> <i class="inr-icon inr-md inr-primary"></i> <span class="mini-cart-total">9,999</span></span>
+											</div>
+										</div>
+										<ul class="mini-cart-items">
+											<li>
+												<img src="images/item1.jpg" alt="SchoolBag with your Name (Primary Kids)">
+												<span class="item-name">SchoolBag with your Name (Primary Kids)</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 190</span>
+												<span class="item-quantity">Quantity: 01</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+											<li>
+												<img src="images/item2.jpg" alt="School Bag (Upper primary Kids)">
+												<span class="item-name">School Bag (Upper primary Kids)</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 185</span>
+												<span class="item-quantity">Quantity: 04</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+											<li>
+												<img src="images/item3.jpg" alt="Basketball">
+												<span class="item-name">Basketball</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 190</span>
+												<span class="item-quantity">Quantity: 01</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+											<li>
+												<img src="images/item4.jpg" alt="Sketch Pens">
+												<span class="item-name">Sketch Pens</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 185</span>
+												<span class="item-quantity">Quantity: 04</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+										</ul>
+										<div class="mini-cart-footer">
+											<a href="checkout.html" class="btn btn-success btn-md btn-block text-uppercase">
+												Checkout Now
+											</a>
+										</div>
+									</div>
+								</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<!-- Page Title -->
+			<section id="page-title">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<h1 class="text-uppercase">Giving Cart</h1>
+						</div>
+					</div>
+					<div class="row bs-wizard" style="border-bottom:0;">
+						<div class="col-xs-4 bs-wizard-step complete">
+							<div class="progress"><div class="progress-bar"></div></div>
+							<a href="#" class="bs-wizard-dot"></a>
+							<div class="bs-wizard-info text-center">Checkout Page</div>
+						</div>
+						<div class="col-xs-4 bs-wizard-step incomplete">
+							<div class="progress"><div class="progress-bar"></div></div>
+							<a href="#" class="bs-wizard-dot"></a>
+							<div class="bs-wizard-info text-center">Payment</div>
+						</div>
+						<div class="col-xs-4 bs-wizard-step incomplete">
+							<div class="progress"><div class="progress-bar"></div></div>
+							<a href="#" class="bs-wizard-dot"></a>
+							<div class="bs-wizard-info text-center">Order Complete</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Checkout Info -->
+			<section id="checkout-info">
+				<div class="container">
+					<div class="row">
+						<div class="order-message is-unsuccessful text-center" alt="Oops! Your order was unsuccessful."></div>
+						<div class="order-complete-details">
+							<div class="order-status-message order-status-message-unsuccessful text-center">
+								<h3>There was some error in the order processing</h3>
+								<p>Your Campaign Items have been saved.</p>
+							</div>
+							<div class="start-over-wrapper">
+								<a href="checkout.html" class="btn btn-success btn-md btn-block btn-lg text-uppercase">
+									Start Over
+								</a>
+							</div>
+							<div class="campaigns-donated-wrapper">
+								<div class="campaign-donated-card">
+									<div class="campaign-image">
+										<img src="images/campaign-small-5.jpg">
+									</div>
+									<div class="campaign-story-wrapper">
+										<div class="campaign-summary">
+											<h4 class="campaign-title">Contribute to street children of footpath shaala</h4>
+											<h1>32 Products In Cart</h1>
+										</div>
+										<div class="share-campaign">
+											Help further to this campaign:
+											<span class="share-buttons-wrapper">
+												<a href="#" class="btn btn-icon btn-facebook">
+													<i class="zmdi zmdi-facebook"></i>
+												</a>
+												<a href="#" class="btn btn-icon btn-twitter">
+													<i class="zmdi zmdi-twitter"></i>
+												</a>
+												<a href="#" class="btn btn-icon btn-website">
+													<i class="zmdi zmdi-link"></i>
+												</a>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="campaign-donated-card">
+									<div class="campaign-image">
+										<img src="images/campaign-small-1.jpg">
+									</div>
+									<div class="campaign-story-wrapper">
+										<div class="campaign-summary">
+											<h4 class="campaign-title">Sponsor a Backpack for Miryalguda Kids</h4>
+											<h1>199 Products In Cart</h1>
+										</div>
+										<div class="share-campaign">
+											Help further to this campaign:
+											<span class="share-buttons-wrapper">
+												<a href="#" class="btn btn-icon btn-facebook">
+													<i class="zmdi zmdi-facebook"></i>
+												</a>
+												<a href="#" class="btn btn-icon btn-twitter">
+													<i class="zmdi zmdi-twitter"></i>
+												</a>
+												<a href="#" class="btn btn-icon btn-website">
+													<i class="zmdi zmdi-link"></i>
+												</a>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<p><img src="images/logo-white.png" /></p>
+							<p>Address: <br>
+							18th Floor, Zone Startups India, <br>
+							BSE Building, Dalal Street, <br>
+							Fort, Mumbai, MH 400001</p>
+							<p class="social-icons">
+								<a class="social-icon icon-facebook" href="https://www.facebook.com/donatekart/" target="_blank">
+									<i class="zmdi zmdi-facebook"></i>
+								</a>
+								<a class="social-icon icon-youtube" href="hhttps://www.youtube.com/channel/UCg6CmauAxn8kGKIjv8H8QSg" target="_blank">
+									<i class="zmdi zmdi-youtube-play"></i>
+								</a>
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p class="footer-title">Important links</p>
+							<ul class="nav nav-pills nav-stacked">
+								<li role="presentation"><a href="single-campaign.html">Explore Campaigns</a></li>
+								<li role="presentation"><a href="about.html">About DonateKart</a></li>
+								<li role="presentation"><a href="how-it-works.html">How It Works</a></li>
+								<li role="presentation"><a href="start-your-campaign.html">Start a Campaign</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p class="footer-title">Other links</p>
+							<ul class="nav nav-pills nav-stacked">
+								<li role="presentation"><a href="faqs.html">FAQs</a></li>
+								<li role="presentation"><a href="terms.html">Terms of Use</a></li>
+								<li role="presentation"><a href="privacy.html">Privacy Policy</a></li>
+								<li role="presentation"><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p class="footer-title">Contacts</p>
+							<p>Phone: <br>
+							+91 8446638884 <br>
+							+91 8446638884
+							</p>
+							<p>Email:<br>
+							 info@donatekart.com
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			<!-- Copyrights -->
+			<section id="copyrights">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h5>© 2017 DonateKart. All rights reserved. </h5>
+						</div>
+						<div class="col-sm-6 payment-cards text-right">
+							<img src="images/payu.svg" />
+							<img src="images/visa.svg" />
+							<img src="images/mastercard.svg" />
+							<img src="images/google-wallet.svg" />
+						</div>
+					</div>
+				</div>
+			</section>
+		
+		
+			<!-- Bootstrap core JavaScript
+			================================================== -->
+			<script src="node_modules/jquery/dist/jquery.min.js"></script>
+			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+			
+			<!-- Custom JS -->
+			<script src="js/javascript.js"></script>
+		</div>
+	</body>
+</html>

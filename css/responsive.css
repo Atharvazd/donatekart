@@ -1,0 +1,409 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#success-stories-slider .carousel-inner,#success-stories-slider .campaign-story-wrapper{
+		max-width: 630px;
+	}
+	#success-stories-slider .campaign-title{
+		white-space: unset;
+		overflow-x: scroll;
+	}
+	#testimonials-slider .carousel-inner{
+		max-width: 700px;
+	}
+	.single-campaign-card {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.single-card-right{
+		max-width: 100%;
+		width: 100%;
+	}
+	.single-card-right > div{
+		width: 350px;
+	}
+	.campaign-stats{
+		float: left;
+		width: 100%;
+	}
+	.campaign-summary, .campaign-buttons{
+		float: right;
+		width: 100%;
+	}
+	.single-campaign-card .campaign-stats{
+		margin-bottom: 0;
+		padding: 50px 0;
+	}
+	.product-cards-wrapper{
+		text-align: center;
+	}
+	#allBackers .modal-lg {
+		width: 720px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.campaign-card{
+		max-width: 340px;
+	}
+	.single-stat{
+		width: 48%;
+	}
+	#success-stories-slider .carousel-inner,#success-stories-slider .campaign-story-wrapper{
+		max-width: 600px;
+	}
+	#success-stories-slider .campaign-title{
+		white-space: unset;
+		overflow-x: scroll;
+	}
+	#testimonials-slider .carousel-inner{
+		max-width: 520px;
+	}
+	footer .col-sm-6{
+		min-height: 270px;
+	}
+	.single-campaign-card {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.single-card-right{
+		max-width: 100%;
+		width: 100%;
+	}
+	.single-card-right > div{
+		width: 350px;
+	}
+	.campaign-stats{
+		float: left;
+		width: 100%;
+	}
+	.campaign-summary, .campaign-buttons{
+		float: right;
+		width: 100%;
+	}
+	.single-campaign-card .campaign-stats{
+		margin-bottom: 0;
+		padding: 50px 0;
+	}
+	.product-cards-wrapper{
+		text-align: center;
+	}
+	.nav-tabs > li > a{
+		padding: 16px 8px;
+	}
+	.campaigner-on-web .btn{
+		width: 100%;
+	}
+	#allBackers .modal-lg {
+		width: 720px;
+	}
+	.dk-advantage{
+		padding: 15px 15px 15px 76px;
+	}
+	.checkout-items-list {
+		padding: 15px;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+	.checkout-setup{
+		position: relative;
+		width: auto;
+		border-left: 0;
+		height: auto;
+	}
+	#checkout-info .container .col-xs-12{
+		min-height: auto;
+	}
+	.campaign-donated-card{
+		padding: 0 0 0 312px;
+		min-height: 170px;
+	}
+	.campaign-donated-card .campaign-image{
+		max-width: 312px;
+	}
+	.campaign-donated-card .campaign-summary{
+		padding: 0 15px;
+	}
+	.campaign-donated-card h1{
+		font-size: 28px;
+	}
+	.initial-form .container{
+		position: relative;
+		top: unset;
+		left: unset;
+		margin-top: 100px;
+		margin-left: auto;
+		max-width: 500px;
+	}
+	.initial-pages{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+@media only screen and (max-width: 767px){
+	#showcase .item h1{
+		padding-top: 90px;
+		line-height: 20px;
+		font-size: 16px;
+	}
+	#showcase .btn-lg{
+		font-size: 15px;
+		padding: 10px 20px;
+	}
+	#showcase .item{
+		height: 380px;
+	}
+	.campaign-stats > div{
+		width: 100%;
+	}
+	.campaign-card{
+		width: 90%;
+		height: auto;
+	}
+	.campaign-title {
+		margin-bottom: 4px;
+		white-space: normal;
+		overflow-x: inherit;
+	}
+	.campaign-summary{
+		padding: 0 15px;
+	}
+	.campaign-author {
+		margin-bottom: 8px;
+	}
+	.campaign-story-wrapper{
+		max-width: unset;
+	}
+	#success-stories-slider .single-stat{
+		padding: 0 15px 15px 15px;
+	}
+	footer, #how-dk-works, #copyrights, .payment-cards{
+		text-align: center !important;
+	}
+	.mini-cart{
+		width: 300px;
+	}
+	#success-stories .row{
+		margin: 0;
+	}
+	.carousel-control{
+		display: none;
+	}
+	#mainmenu-navbar-collapse{
+		width: 100%;
+		padding: 0px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#header .navbar-nav{
+		margin: 0;
+		padding-top: 15px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav > li > a.btn {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.navbar-default .navbar-toggle{
+		border-color: #ff7400;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #ff7400;
+	}
+	.percent-graph-completed{
+		padding-top: 15px;
+	}
+	.product-cards-wrapper{
+		text-align: center;
+	}
+	.product-card {
+		max-width: 350px;
+		width: 90%;
+	}
+	.single-card-right{
+		max-width: 100%;
+	}
+	.single-campaign-card .campaign-stats, .single-campaign-card .campaign-summary{
+		text-align: center;
+	}
+	.single-campaign-card .btn-primary{
+		padding: 15px;
+	}
+	#single-campaign-details .nav-tabs > li{
+		width: 100%;
+		text-align: center;
+	}
+	.campaigner-on-web .btn{
+		width: 100%;
+	}
+	.modal-lg {
+		width: inherit !important;
+	}
+	#allBackers .modal-lg{
+		max-width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.campaign-update{
+		margin-left: 40px;
+	}
+	.campaign-update:before{
+		left: -40px;
+	}
+	.campaign-update:after{
+		left: -31px;
+	}
+	.share-buttons-wrapper{
+		display: block;
+		margin-top: 10px;
+	}
+	.campaign-buttons{
+		padding-top: 15px;
+	}
+	#top-menu .nav-pills > li > a{
+		padding: 10px 8px;
+	}
+	.explore-campaigns .campaign-card{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.dk-advantage{
+		padding: 15px 15px 15px 76px;
+	}
+	.checkout-items-list {
+		padding: 15px;
+	}
+	.checkout-setup{
+		position: relative;
+		width: auto;
+		border-left: 0;
+		height: auto;
+		padding: 15px;
+	}
+	#checkout-info .container .col-xs-12{
+		min-height: auto;
+	}
+	.checkout-items-list .mini-cart-items{
+		margin: 0 auto;
+		max-width: 260px;
+	}
+	.checkout-items-list .mini-cart-items img{
+		position: relative;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.checkout-items-list .mini-cart-items li{
+		border: 1px solid rgba(0,0,0,0.1);
+		margin: 10px 0;
+		padding: 15px;
+	}
+	.checkout-items-list .item-name{
+		line-height: 22px;
+		margin-bottom: 6px;
+		white-space: normal;
+		overflow: auto;
+	}
+	.item-total{
+		position: relative;
+		display: block;
+		right: auto;
+		top: auto;
+		margin-top: 10px;
+		width: 100%;
+		text-align: left;
+	}
+	.checkout-items-list .item-quantity{
+		float: right;
+	}
+	.checkout-items-list .item-price{
+		margin: 4px 0;
+		display: inline-block;
+	}
+	.order-message{
+		min-height: 200px;
+	}
+	.campaign-donated-card {
+		padding: 0 0 10px 0;
+		max-width: 370px;
+	}
+	.campaign-donated-card .campaign-image{
+		position: relative;
+	}
+	.campaign-donated-card h1{
+		font-size: 20px;
+	}
+	.bs-wizard > .bs-wizard-step .bs-wizard-info{
+		font-size: 12px;
+	}
+	#new-campaign-form .container{
+		padding-top: 24px;
+		padding-bottom: 0;
+	}
+	#new-campaign-form .btn{
+		padding: 16px 32px;
+		font-size: 16px;
+		margin: 10px 0;
+		width: 100%;
+	}
+	#new-campaign-form .text-right{
+		text-align: center !important;
+	}
+	.bs-wizard{
+		margin: 20px 5px 0;
+	}
+	.delete-item{
+		opacity: 1;
+	}
+	.initial-form .container{
+		position: relative;
+		top: unset;
+		left: unset;
+		margin-top: 10px;
+		margin-left: auto;
+		width: 90%;
+		max-width: 320px;
+	}
+	.initial-pages{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.initial-form img{
+		margin: 30px auto;
+		width: 160px;
+	}
+	.social-login-wrapper, .initial-form form{
+		width: 100%;
+	}
+	.initial-form .container{
+		height: auto;
+		padding-bottom: 15px;
+	}
+	.initial-form .btn-social, .initial-form .btn-primary{
+		padding: 12px 20px;
+	}
+	.initial-form .btn-social.btn-google{
+		-moz-box-shadow: 0 6px 10px rgba(236,30,17,0.3);
+		-webkit-box-shadow: 0 6px 10px rgba(236,30,17,0.3);
+				box-shadow: 0 6px 10px rgba(236,30,17,0.3);
+	}
+	.initial-form .btn-social.btn-facebook{
+		-moz-box-shadow: 0 6px 10px rgba(72,103,170,0.3);
+		-webkit-box-shadow: 0 6px 10px rgba(72,103,170,0.3);
+				box-shadow: 0 6px 10px rgba(72,103,170,0.3);
+	}
+	.initial-form .form-control{
+		height: 44px;
+	}
+	.initial-form .seperater{
+		margin: 20px auto;
+	}
+	#contact-page-content .container .col-sm-4{
+		text-align: center;
+	}
+	#contact-page-content .container .col-sm-8{
+		max-width: 90%;
+		margin: 40px auto 40px auto;
+	}
+}

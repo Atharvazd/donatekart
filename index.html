@@ -1,0 +1,742 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="images/favicon.ico">
+	
+		<title>DonateKart | Donate products in need to charities</title>
+	
+		<!-- Bootstrap core CSS -->
+		<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"> 
+		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="all-wrapper home">
+		
+			<!-- Top-Menu -->
+			<section id="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 hidden-xs">
+							<form class="form-inline">
+								<div class="form-group">
+									<input type="text" class="form-control" id="searchform" placeholder="Search Campaigns">
+								</div>
+								<button type="submit" class="btn btn-link btn-search"><i class="zmdi zmdi-search"></i></button>
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<ul class="nav nav-pills pull-right">
+								<li role="presentation"><a href="login.html">Login</a></li>
+								<li role="presentation"><a href="register.html">Register</a></li>
+								<li role="presentation"><a href="start-your-campaign.html">Create New Campaign</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</section>
+			
+			<!-- Header -->
+			<nav id="header" class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu-navbar-collapse" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"></a>
+					</div>
+					<div class="collapse navbar-collapse pull-right" id="mainmenu-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="explore-campaigns.html">Explore Campaigns <span class="sr-only">Explore Campaigns</span></a></li>
+							<li><a href="how-it-works.html">How it Works <span class="sr-only">How DonateKart Works</span></a></li>
+							<li class="hidden-lg hidden-md hidden-sm hidden-xs"><a class="btn btn-primary" href="#">New Campaign <span class="sr-only">New Campaign</span></a></li>
+								<li role="presentation">
+									<a class="dropdown-toggle btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+										<i class="zmdi zmdi-shopping-cart"></i> <span class="mini-cart-items-count">10</span> Item(s)  ( <i class="inr-icon inr-sm inr-white"></i> <span class="mini-cart-total">9,999</span> ) 
+									</a>
+									<div class="dropdown-menu mini-cart">
+										<div class="mini-cart-header clearfix">
+											<div class="edit-cart-wrapper-wrapper col-xs-6">
+												<a href="#" class="btn btn-link">Edit Cart</a>
+											</div>
+											<div class="total-wrapper col-xs-6 text-right">
+												<span class="lighter-text">Total:</span>
+												<span class="primary-color-text"> <i class="inr-icon inr-md inr-primary"></i> <span class="mini-cart-total">9,999</span></span>
+											</div>
+										</div>
+										<ul class="mini-cart-items">
+											<li>
+												<img src="images/item1.jpg" alt="SchoolBag with your Name (Primary Kids)">
+												<span class="item-name">SchoolBag with your Name (Primary Kids)</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 190</span>
+												<span class="item-quantity">Quantity: 01</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+											<li>
+												<img src="images/item2.jpg" alt="School Bag (Upper primary Kids)">
+												<span class="item-name">School Bag (Upper primary Kids)</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 185</span>
+												<span class="item-quantity">Quantity: 04</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+											<li>
+												<img src="images/item3.jpg" alt="Basketball">
+												<span class="item-name">Basketball</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 190</span>
+												<span class="item-quantity">Quantity: 01</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+											<li>
+												<img src="images/item4.jpg" alt="Sketch Pens">
+												<span class="item-name">Sketch Pens</span>
+												<span class="item-price primary-color-text"><i class="inr-icon inr-xs inr-primary"></i> 185</span>
+												<span class="item-quantity">Quantity: 04</span>
+												<a href="#" class="btn delete-item"><i class="zmdi zmdi-close-circle-o"></i></a>
+											</li>
+										</ul>
+										<div class="mini-cart-footer">
+											<a href="checkout.html" class="btn btn-success btn-md btn-block text-uppercase">
+												Checkout Now
+											</a>
+										</div>
+									</div>
+								</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<!-- Showcase -->
+			<section id="showcase">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="row">
+								<div id="showcase-slider" class="carousel slide text-center" data-ride="carousel">
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+										<div class="item slide1 active">
+											<div class="container">
+												<h1 class="text-uppercase">Donate products in need<br>to charities instead of money</h1>
+												<p><a class="btn btn-primary btn-lg" href="start-your-campaign.html">Start Your Campaign Now!</a></p>
+												<div class="video-showcase"  data-toggle="modal" data-target="#showcaseVideo">
+													<i class="zmdi zmdi-play"></i>
+													<h4>Watch Video to Know More</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Left and right controls -->
+									<!--
+									<a class="left carousel-control" href="#showcase-slider" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#showcase-slider" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right"></span>
+										<span class="sr-only">Next</span>
+									</a>
+									-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Featured Campaigns -->
+			<section id="featured-campaigns">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 section-heading">
+							<h3>Featured Campaigns</h3>
+							<a href="explore-campaigns.html" class="btn btn-primary pull-right">
+								View All Campaigns
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="campaigns-wrapper featured-campaigns">
+							<div class="campaign-card">
+								<div class="campaign-image">
+									<img src="images/campaign-small-1.jpg" />
+								</div>
+								<div class="campaign-stats">
+									<div class="percent-graph-completed">
+										<div class="donut-chart" data-percent="30">
+											<p>30</p>
+										</div>
+									</div>
+									<div class="numbers-completed">
+										<div class="single-stat stat-cpmpleted">
+											<span class="stat-figure">30%</span>Completed
+										</div>
+										<div class="single-stat stat-days-left">
+											<span class="stat-figure">33</span>Days Left
+										</div>
+										<div class="single-stat stat-backers">
+											<span class="stat-figure">53</span>Backers
+										</div>
+										<div class="single-stat stat-products">
+											<span class="stat-figure">761</span>Products
+										</div>
+									</div>
+								</div>
+								<div class="campaign-summary">
+									<h4 class="campaign-title">Sponsor a Backpack for Miryalguda Kids</h4>
+									<p class="campaign-author">by Mana Miryalguda</p>
+									<p class="campaign-details">Provide Miryalaguda school kids with Backpacks to secure school books and supplies throughout the year. </p>
+								</div>
+								<a href="single-campaign.html" class="campaign-link-wrap"></a>
+							</div>
+							<div class="campaign-card">
+								<div class="campaign-image">
+									<img src="images/campaign-small-2.jpg" />
+								</div>
+								<div class="campaign-stats">
+									<div class="percent-graph-completed">
+										<div class="donut-chart" data-percent="76">
+											<p>76</p>
+										</div>
+									</div>
+									<div class="numbers-completed">
+										<div class="single-stat stat-cpmpleted">
+											<span class="stat-figure">76%</span>Completed
+										</div>
+										<div class="single-stat stat-days-left">
+											<span class="stat-figure">33</span>Days Left
+										</div>
+										<div class="single-stat stat-backers">
+											<span class="stat-figure">21</span>Backers
+										</div>
+										<div class="single-stat stat-products">
+											<span class="stat-figure">600</span>Products
+										</div>
+									</div>
+								</div>
+								<div class="campaign-summary">
+									<h4 class="campaign-title">Sponsor A School Kit</h4>
+									<p class="campaign-author">by Share The Joy</p>
+									<p class="campaign-details">Share The Joy is formed with group of individuals who would like to provide basic facilities at Governmet schools. </p>
+								</div>
+								<a href="single-campaign.html" class="campaign-link-wrap"></a>
+							</div>
+							<div class="campaign-card">
+								<div class="campaign-image">
+									<img src="images/campaign-small-3.jpg" />
+								</div>
+								<div class="campaign-stats">
+									<div class="percent-graph-completed">
+										<div class="donut-chart" data-percent="76">
+											<p>76</p>
+										</div>
+									</div>
+									<div class="numbers-completed">
+										<div class="single-stat stat-cpmpleted">
+											<span class="stat-figure">76%</span>Completed
+										</div>
+										<div class="single-stat stat-days-left">
+											<span class="stat-figure">33</span>Days Left
+										</div>
+										<div class="single-stat stat-backers">
+											<span class="stat-figure">23</span>Backers
+										</div>
+										<div class="single-stat stat-products">
+											<span class="stat-figure">1707</span>Products
+										</div>
+									</div>
+								</div>
+								<div class="campaign-summary">
+									<h4 class="campaign-title">Support differently abled orphans at Ashajyothi</h4>
+									<p class="campaign-author">by Asha Jyothi</p>
+									<p class="campaign-details">Asha Jyothi Handicapped Welfare Society is a registered Voluntary Organization started in1998 in Hauman Junction, A.P.</p>
+								</div>
+								<a href="single-campaign.html" class="campaign-link-wrap"></a>
+							</div>
+							<div class="campaign-card">
+								<div class="campaign-image">
+									<img src="images/campaign-small-4.jpg" />
+								</div>
+								<div class="campaign-stats">
+									<div class="percent-graph-completed">
+										<div class="donut-chart" data-percent="100">
+											<p>100</p>
+										</div>
+									</div>
+									<div class="numbers-completed">
+										<div class="single-stat stat-cpmpleted">
+											<span class="stat-figure">100%</span>Completed
+										</div>
+										<div class="single-stat stat-days-left">
+											<span class="stat-figure">12</span>Days Left
+										</div>
+										<div class="single-stat stat-backers">
+											<span class="stat-figure">23</span>Backers
+										</div>
+										<div class="single-stat stat-products">
+											<span class="stat-figure">466</span>Products
+										</div>
+									</div>
+								</div>
+								<div class="campaign-summary">
+									<h4 class="campaign-title">Help kids of construction workers in VNIT</h4>
+									<p class="campaign-author">by Prayaas-VNIT</p>
+									<p class="campaign-details">Prayaas works with an indiviual centric vision of exploring oneself in serving the needy. Now Prayaas has a team of 150 students from various disciplines.</p>
+								</div>
+								<a href="single-campaign.html" class="campaign-link-wrap"></a>
+							</div>
+							<div class="campaign-card">
+								<div class="campaign-image">
+									<img src="images/campaign-small-5.jpg" />
+								</div>
+								<div class="campaign-stats">
+									<div class="percent-graph-completed">
+										<div class="donut-chart" data-percent="55">
+											<p>55</p>
+										</div>
+									</div>
+									<div class="numbers-completed">
+										<div class="single-stat stat-cpmpleted">
+											<span class="stat-figure">55%</span>Completed
+										</div>
+										<div class="single-stat stat-days-left">
+											<span class="stat-figure">33</span>Days Left
+										</div>
+										<div class="single-stat stat-backers">
+											<span class="stat-figure">49</span>Backers
+										</div>
+										<div class="single-stat stat-products">
+											<span class="stat-figure">600</span>Products
+										</div>
+									</div>
+								</div>
+								<div class="campaign-summary">
+									<h4 class="campaign-title">Contribute to street children of footpath shaala</h4>
+									<p class="campaign-author">by UPAY</p>
+									<p class="campaign-details">The products listed on our campaign page are of prime importance to carry our following projects successfully.</p>
+								</div>
+								<a href="single-campaign.html" class="campaign-link-wrap"></a>
+							</div>
+							<div class="campaign-card">
+								<div class="campaign-image">
+									<img src="images/campaign-small-6.jpg" />
+								</div>
+								<div class="campaign-stats">
+									<div class="percent-graph-completed">
+										<div class="donut-chart" data-percent="94">
+											<p>94</p>
+										</div>
+									</div>
+									<div class="numbers-completed">
+										<div class="single-stat stat-cpmpleted">
+											<span class="stat-figure">94%</span>Completed
+										</div>
+										<div class="single-stat stat-days-left">
+											<span class="stat-figure">23</span>Days Left
+										</div>
+										<div class="single-stat stat-backers">
+											<span class="stat-figure">33</span>Backers
+										</div>
+										<div class="single-stat stat-products">
+											<span class="stat-figure">17007</span>Products
+										</div>
+									</div>
+								</div>
+								<div class="campaign-summary">
+									<h4 class="campaign-title">Drawing Classes for Deaf and Mute Kids </h4>
+									<p class="campaign-author">by Deaf and Dumb School</p>
+									<p class="campaign-details">This is an individual run campaign by Tejo Guna,an enthusiastic artist who is passionate in teaching kids.</p>
+								</div>
+								<a href="single-campaign.html" class="campaign-link-wrap"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- How It Works -->
+			<section id="how-dk-works" class="orange-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 section-heading">
+							<h3>How Donatekart works?</h3>
+							<a href="how-it-works.html" class="btn btn-primary pull-right">
+								Know More
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<p><img src="images/how-1-choose-a-cause.png" /></p>
+							<h3>Choose a cause</h3>
+							<p>Browse different campaigns and select a cause.</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p><img src="images/how-2-select-products.png" /></p>
+							<h3>Select products</h3>
+							<p>Select products and quantity you wish to donate. </p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p><img src="images/how-3-order-processing.png" /></p>
+							<h3>Order processing </h3>
+							<p>Checkout and pay for your contributions. </p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p><img src="images/how-4-delivery-report.png" /></p>
+							<h3>delivery report </h3>
+							<p>Donatekart delivers the products and the organisation updates about product utilization. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Success stories -->
+			<section id="success-stories">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 section-heading">
+							<h3>Success stories</h3>
+							<a href="#" class="btn btn-primary pull-right">
+								View All Stories
+							</a>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<h4 class="text-center">Following are some of the Success stories made possible from contributers like you.</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="success-stories-slider" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#success-stories-slider" data-slide-to="0" class="active"></li>
+										<li data-target="#success-stories-slider" data-slide-to="1"></li>
+									</ol>
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+										<div class="item active">
+											<div class="campaign-completed-card">
+												<div class="campaign-image">
+													<img src="images/campaign-medium-1.jpg" />
+												</div>
+												<div class="campaign-story-wrapper">
+													<h2 class="text-uppercase text-center">FOR YOUR SUPPORT</h2>
+													<div class="campaign-summary">
+														<h4 class="campaign-title">Pay forward for a meal at Seva Kitchen</h4>
+														<p class="campaign-author">by Mana Miryalguda</p>
+														<p class="campaign-details">Provide Miryalaguda school kids with Backpacks to secure school books and supplies throughout the year. </p>
+													</div>
+													<div class="numbers-completed">
+														<div class="single-stat stat-backers">
+															<span class="stat-figure">33</span>Backers
+														</div>
+														<div class="single-stat stat-products">
+															<span class="stat-figure">17007</span>Products
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="campaign-completed-card">
+												<div class="campaign-image">
+													<img src="images/campaign-medium-2.jpg" />
+												</div>
+												<div class="campaign-story-wrapper">
+													<h2 class="text-uppercase text-center">FOR YOUR SUPPORT</h2>
+													<div class="campaign-summary">
+														<h4 class="campaign-title">Beat the heat with kindness this summer - Kind is the new cool</h4>
+														<p class="campaign-author">by Agrini Samaj Kalyan Samiti</p>
+														<p class="campaign-details">On their way to create the future of young India, are 132 tiny tots of Agrini Public School in Central India. Their school, the Agrini Public School is an innovative school in the tribal block of Kurai, located adjacent to Mowgli's Pench Tiger Reserve its not just a school but an innovation space for educational practices.</p>
+													</div>
+													<div class="numbers-completed">
+														<div class="single-stat stat-backers">
+															<span class="stat-figure">33</span>Backers
+														</div>
+														<div class="single-stat stat-products">
+															<span class="stat-figure">17007</span>Products
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Left and right controls -->
+									<a class="left carousel-control" href="#success-stories-slider" data-slide="prev">
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#success-stories-slider" data-slide="next">
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Testimonials -->
+			<section id="testimonials">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 section-heading">
+							<h3>Testimonials</h3>
+							<a href="#" class="btn btn-primary pull-right">
+								Write a Testimonial
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+								<div id="testimonials-slider" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#testimonials-slider" data-slide-to="0" class="active"></li>
+										<li data-target="#testimonials-slider" data-slide-to="1"></li>
+									</ol>
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner text-center">
+										<div class="item active">
+											<div class="testimonial-card">
+												<h4>Traditur, inquit, ab Epicuro ratio neglegendi doloris. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi; Egone no
+												 intellego, quid sit don Graece, Latine voluptas? Eam tum adesse, cum dolor omnis absit; Nec tamen ullo modo summum pecudis bonum
+												et hominis idem mihi videri potest. Etenim semper illud extra est, quod arte comprehenditur. Tibi hoc incredibile, quod beatissimum. Quo
+												igitur, inquit, modo? Ut alios omittam, hunc appello, quem ille unum secutus est. An vero, inquit, quisquam potest probare, quod perceptfu
+												m, quod. Te ipsum, dignissimum maioribus tuis, voluptasne induxit, ut adolescentulus eriperes.</h4>
+												<p class="testimonial-author-image user-image">
+													<img src="images/testomonials/1.jpg" />
+												</p>
+												<p class="testimonial-author-details">
+													<span class="testimonial-author-name">Mary jane</span> <br> <span class="testimonial-author-city">Mumbai (India)</span>
+												</p>
+											</div>
+										</div>
+										<div class="item">
+											<div class="testimonial-card">
+												<h4>Et hominis idem mihi videri potest. Etenim semper illud extra est, quod arte comprehenditur. Tibi hoc incredibile, quod beatissimum. Quo
+												igitur, inquit, modo? Ut alios omittam, hunc appello, quem ille unum secutus est. An vero, inquit, quisquam potest probare, quod perceptfu
+												m, quod. Te ipsum, dignissimum maioribus tuis, voluptasne induxit, ut adolescentulus eriperes.
+												Traditur, inquit, ab Epicuro ratio neglegendi doloris. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi; Egone no
+												 intellego, quid sit don Graece, Latine voluptas? Eam tum adesse, cum dolor omnis absit; Nec tamen ullo modo summum pecudis bonum
+												</h4>
+												<p class="testimonial-author-image user-image">
+													<img src="images/testomonials/2.jpg" />
+												</p>
+												<p class="testimonial-author-details">
+													<span class="testimonial-author-name">Mary jane</span> <br> <span class="testimonial-author-city">Mumbai (India)</span>
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- Left and right controls -->
+									<a class="left carousel-control" href="#testimonials-slider" data-slide="prev">
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#testimonials-slider" data-slide="next">
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Featured In -->
+			<section id="featured-in">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 section-heading text-center">
+							<h3>Featured In</h3>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="http://www.thebetterindia.com/79642/donatekart-engineering-graduates-donations-ngo/">
+									<img src="images/featured-in/1-toi.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="https://www.youthkiawaaz.com/2017/03/how-i-started-donatekart/">
+									<img src="images/featured-in/2-tka.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="http://www.thebetterindia.com/79642/donatekart-engineering-graduates-donations-ngo/">
+									<img src="images/featured-in/3-the-better-india.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="http://epaper.newindianexpress.com/1161056/The-New-Indian-Express-Hyderabad/06-04-2017#page/18/1">
+									<img src="images/featured-in/4-indian-express.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="www.thepositiveindia.com/donatekart-charity-donors/">
+									<img src="images/featured-in/5-the-positive-india.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="https://www.kenfolios.com/donatekart-ngp/">
+									<img src="images/featured-in/6-kenfolios.jpg">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Supported By -->
+			<section id="supported-by">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 section-heading text-center">
+							<h3>Supported By</h3>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="http://www.thebetterindia.com/79642/donatekart-engineering-graduates-donations-ngo/">
+									<img src="images/supported by/1-bse.png">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="http://www.thebetterindia.com/79642/donatekart-engineering-graduates-donations-ngo/">
+									<img src="images/supported by/2-sammaan.png">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+							<div class="grey-image">
+								<a target="_blank" href="http://www.thebetterindia.com/79642/donatekart-engineering-graduates-donations-ngo/">
+									<img src="images/supported by/3-zone-startups.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<p><img src="images/logo-white.png" /></p>
+							<p>Address: <br>
+							18th Floor, Zone Startups India, <br>
+							BSE Building, Dalal Street, <br>
+							Fort, Mumbai, MH 400001</p>
+							<p class="social-icons">
+								<a class="social-icon icon-facebook" href="https://www.facebook.com/donatekart/" target="_blank">
+									<i class="zmdi zmdi-facebook"></i>
+								</a>
+								<a class="social-icon icon-youtube" href="hhttps://www.youtube.com/channel/UCg6CmauAxn8kGKIjv8H8QSg" target="_blank">
+									<i class="zmdi zmdi-youtube-play"></i>
+								</a>
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p class="footer-title">Important links</p>
+							<ul class="nav nav-pills nav-stacked">
+								<li role="presentation"><a href="single-campaign.html">Explore Campaigns</a></li>
+								<li role="presentation"><a href="about.html">About DonateKart</a></li>
+								<li role="presentation"><a href="how-it-works.html">How It Works</a></li>
+								<li role="presentation"><a href="start-your-campaign.html">Start a Campaign</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p class="footer-title">Other links</p>
+							<ul class="nav nav-pills nav-stacked">
+								<li role="presentation"><a href="faqs.html">FAQs</a></li>
+								<li role="presentation"><a href="terms.html">Terms of Use</a></li>
+								<li role="presentation"><a href="privacy.html">Privacy Policy</a></li>
+								<li role="presentation"><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<p class="footer-title">Contacts</p>
+							<p>Phone: <br>
+							+91 8446638884 <br>
+							+91 8446638884
+							</p>
+							<p>Email:<br>
+							 info@donatekart.com
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			<!-- Copyrights -->
+			<section id="copyrights">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h5>© 2017 DonateKart. All rights reserved. </h5>
+						</div>
+						<div class="col-sm-6 payment-cards text-right">
+							<img src="images/payu.svg" />
+							<img src="images/visa.svg" />
+							<img src="images/mastercard.svg" />
+							<img src="images/google-wallet.svg" />
+						</div>
+					</div>
+				</div>
+			</section>
+		
+			<!-- Showcase VideoModal -->
+			<div class="modal fade" id="showcaseVideo" tabindex="-1" role="dialog" aria-labelledby="showcaseVideoLabel">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe width="1280" height="720" src="https://www.youtube.com/embed/2k-ESjE-SEw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!-- Bootstrap core JavaScript
+			================================================== -->
+			<script src="node_modules/jquery/dist/jquery.min.js"></script>
+			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+			
+			<!-- Custom JS -->
+			<script src="js/javascript.js"></script>
+		</div>
+	</body>
+</html>
